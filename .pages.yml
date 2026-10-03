@@ -1,0 +1,35 @@
+media:
+  input: images/workshops
+  output: /images/workshops
+content:
+  - name: workshops
+    label: Workshops
+    type: file
+    path: data/workshops.json
+    format: json
+    fields:
+      - name: workshops
+        label: Workshops
+        type: object
+        list: true
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: date, label: Date / schedule, type: string}
+          - {name: description, label: Description, type: text}
+          - {name: image, label: Picture, type: image}
+          - name: tags
+            label: Subjects
+            type: select
+            multiple: true
+            options:
+              values: [Science, Technology, Engineering, Math]
+          - {name: link, label: Sign-up link (optional), type: string}
+  - name: links
+    label: Sign-Up Links
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - {name: workshopsLink, label: "Sign up for Workshops card link", type: string}
+      - {name: classesLink, label: "Join our STEM Classes card link", type: string}
+      - {name: signupLink, label: "Workshop Sign-Up card link (your form)", type: string}
