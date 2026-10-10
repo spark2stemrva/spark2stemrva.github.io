@@ -13,4 +13,4 @@ if(grid){
 }
 const gis=document.querySelectorAll('[data-link]');
 if(gis.length)fetch('data/site.json').then(r=>r.json()).catch(()=>({})).then(s=>gis.forEach(a=>{const u=(s[a.dataset.link]||'').trim(),g=a.querySelector('.go');
- if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent='View Workshops →'}else{a.classList.add('soon');g.textContent='Link coming soon'}}));
+ if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent=if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent=({workshopsLink:'View workshops →',classesLink:'Join a class →',signupLink:'Fill out the form →'})[a.dataset.link]}else{a.classList.add('soon');g.textContent='Link coming soon'}}));
