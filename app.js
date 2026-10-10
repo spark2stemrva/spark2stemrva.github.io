@@ -11,6 +11,7 @@ if(grid){
   chips.onclick=e=>{if(e.target.tagName!=='BUTTON')return;chips.querySelectorAll('button').forEach(b=>b.classList.remove('on'));e.target.classList.add('on');draw(e.target.textContent)};draw('All')})
  .catch(()=>grid.innerHTML='<p class="empty">Workshops could not be loaded.</p>');
 }
-const gis=document.querySelectorAll('[data-link]');
-if(gis.length)fetch('data/site.json').then(r=>r.json()).catch(()=>({})).then(s=>gis.forEach(a=>{const u=(s[a.dataset.link]||'').trim(),g=a.querySelector('.go');
- if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent=if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent=({workshopsLink:'View workshops →',classesLink:'Join a class →',signupLink:'Fill out the form →'})[a.dataset.link]}else{a.classList.add('soon');g.textContent='Link coming soon'}}));
+   const gis=document.querySelectorAll('[data-link]');
+   const labels={workshopsLink:'View workshops →',classesLink:'Join a class →',signupLink:'Fill out the form →'};
+   if(gis.length)fetch('data/site.json').then(r=>r.json()).catch(()=>({})).then(s=>gis.forEach(a=>{const u=(s[a.dataset.link]||'').trim(),g=a.querySelector('.go');
+    if(u){a.href=u;if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}g.textContent=labels[a.dataset.link]}else{a.classList.add('soon');g.textContent='Link coming soon'}}));
