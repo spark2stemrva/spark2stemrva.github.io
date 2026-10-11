@@ -42,3 +42,4 @@ nav b i{font-style:normal}nav b .s{color:#e53935}nav b .t{color:#1e6fe0}nav b .e
 .gi:nth-child(2) .ico{color:#1e6fe0;background:color-mix(in srgb,#1e6fe0 14%,#fff)}
 .gi:nth-child(3) .ico{color:#8e44c9;background:color-mix(in srgb,#8e44c9 14%,#fff)}
 nav b .r{color:#144068}
+.card .pic{width:100%;height:260px;object-fit:cover;display:block}.card .pic.whole{height:auto}
