@@ -8,7 +8,9 @@
       "tags": [
         "Science",
         "Engineering"
-      ]
+      ],
+      "image_position": "25%",
+      "image_fit": "crop"
     },
     {
       "title": "Sample: Build-a-Bridge Challenge",
