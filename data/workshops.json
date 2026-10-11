@@ -1,9 +1,9 @@
 {
   "workshops": [
     {
-      "title": "How to make an Electromagnet",
+      "title": "To make an Electromagnet",
       "date": "Date TBA",
-      "description": "In this workshop, students will explore how an iron nail can be magnetised by making an electromagnet with simple materials that will be provided. They will build a simple electromagnet by wrapping insulated wire around the nail and connecting it to a battery. Students will be able to understand the properties of electromagnets and how to create magnetic fields with electricity.",
+      "description": "Students will build a simple electromagnet by wrapping wire around an iron nail and connecting it to a battery, learning how electricity creates magnetic fields. All materials are provided.",
       "image": "/images/workshops/electromagnet-flyer-web-1.jpg",
       "tags": [
         "Science",
