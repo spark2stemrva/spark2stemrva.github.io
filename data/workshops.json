@@ -1,4 +1,31 @@
-{"workshops":[
-{"title":"Sample: Slime Chemistry Lab","description":"Mix, stretch and explore states of matter. Replace this sample in the dashboard!","image":"","tags":["Science"],"date":"Date TBA","link":""},
-{"title":"Sample: Build-a-Bridge Challenge","description":"Teams design and test bridges using everyday materials.","image":"","tags":["Engineering","Math"],"date":"Date TBA","link":""},
-{"title":"Sample: Intro to Block Coding","description":"Kids create their first game with drag-and-drop code.","image":"","tags":["Technology"],"date":"Date TBA","link":""}]}
+{
+  "workshops": [
+    {
+      "title": "How to make an Electromagnet",
+      "date": "Date TBA",
+      "description": "In this workshop, students will explore how an iron nail can be magnetised by making an electromagnet with simple materials that will be provided. They will build a simple electromagnet by wrapping insulated wire around the nail and connecting it to a battery. Students will be able to understand the properties of electromagnets and how to create magnetic fields with electricity.",
+      "image": "/images/workshops/electromagnet-flyer-web-1.jpg",
+      "tags": [
+        "Science",
+        "Engineering"
+      ]
+    },
+    {
+      "title": "Sample: Build-a-Bridge Challenge",
+      "date": "Date TBA",
+      "description": "Teams design and test bridges using everyday materials.",
+      "tags": [
+        "Engineering",
+        "Math"
+      ]
+    },
+    {
+      "title": "Sample: Intro to Block Coding",
+      "date": "Date TBA",
+      "description": "Kids create their first game with drag-and-drop code.",
+      "tags": [
+        "Technology"
+      ]
+    }
+  ]
+}
