@@ -20,8 +20,8 @@ content:
           - name: tags
             label: Subjects
             type: select
-            multiple: true
             options:
+              multiple: true
               values: [Science, Technology, Engineering, Math]
           - {name: link, label: Sign-up link (optional), type: string}
   - name: links
