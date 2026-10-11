@@ -23,6 +23,23 @@ content:
             options:
               multiple: true
               values: [Science, Technology, Engineering, Math]
+          - name: image_position
+            label: Picture position (which part shows on the card)
+            type: select
+            options:
+              values:
+                - {value: "0%", label: Top}
+                - {value: "25%", label: Upper middle}
+                - {value: "50%", label: Center}
+                - {value: "75%", label: Lower middle}
+                - {value: "100%", label: Bottom}
+          - name: image_fit
+            label: Picture size
+            type: select
+            options:
+              values:
+                - {value: crop, label: Crop to fit the card}
+                - {value: whole, label: Show the whole picture}
           - {name: link, label: Sign-up link (optional), type: string}
   - name: links
     label: Sign-Up Links
