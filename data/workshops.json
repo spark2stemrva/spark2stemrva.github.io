@@ -18,15 +18,63 @@
       "description": "In this workshop, students will make ice cream in a bag. Students will shake the bag and watch as a liquid mixture transforms into a frozen treat. Along the way, they will learn how freezing, heat transfer, and salt work together to make ice cream.",
       "tags": [
         "Science"
-      ]
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
     },
     {
-      "title": "Sample: Intro to Block Coding",
+      "title": "Buoyancy with Aluminum Boats",
       "date": "Date TBA",
-      "description": "Kids create their first game with drag-and-drop code.",
+      "description": "In this workshop, students will explore why some objects float while others sink. Using aluminum foil, students will design and build their own boats and discover how the shape and amount of material can affect buoyancy. They will test their designs and see how much weight their boats can carry before they sink.",
       "tags": [
-        "Technology"
-      ]
+        "Engineering",
+        "Math"
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
+    },
+    {
+      "title": " Catapult or Trebuchet",
+      "date": "Date TBA",
+      "description": "In this workshop, students will explore how simple machines, force, and motion work by building and testing a small catapult or trebuchet. Students will investigate how changing the design affects how far an object can be launched.",
+      "tags": [
+        "Engineering",
+        "Math"
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
+    },
+    {
+      "title": "DIY Water Filters",
+      "date": "Date TBA",
+      "description": "In this workshop, students will explore how different materials can be used to filter dirty water. They will build a simple water filter using layers of gravel, sand, cotton, and activated charcoal. Students will observe how each layer removes different types of particles and compare the clarity of the filtered water.",
+      "tags": [
+        "Science",
+        "Engineering"
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
+    },
+    {
+      "title": "Aerodynamics with DIY Kites",
+      "date": "Date TBA",
+      "description": "In this workshop, students will explore how aerodynamics and wind affect the flight of a kite. They will build a simple kite and test how different designs and materials affect its ability to fly.",
+      "tags": [
+        "Engineering",
+        "Math"
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
+    },
+    {
+      "title": "Walking Water",
+      "date": "Date TBA",
+      "description": "In this workshop, students will explore how water can travel through substances and interact with each other. The walking water experiment is a fun and easy science activity that shows kids how water can move from one cup to another.",
+      "tags": [
+        "Science"
+      ],
+      "image_position": "50%",
+      "image_fit": "crop"
     }
   ]
 }
