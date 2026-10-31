@@ -41,6 +41,7 @@ content:
                 - {value: crop, label: Crop to fit the card}
                 - {value: whole, label: Show the whole picture}
           - {name: link, label: Sign-up link (optional), type: string}
+          - {name: hidden, label: Hide from website, type: boolean}
   - name: links
     label: Sign-Up Links
     type: file
