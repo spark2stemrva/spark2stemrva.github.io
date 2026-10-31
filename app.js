@@ -7,7 +7,7 @@ if(grid){
  const chips=document.getElementById('chips');let all=[];
  const draw=f=>{const l=all.filter(w=>f==='All'||(w.tags||[]).includes(f));
   grid.innerHTML=l.length?l.map(w=>`<article class="card rv">${w.image?`<img class="pic${w.image_fit==='whole'?' whole':''}" style="object-position:50% ${esc(w.image_position||'50%')}" src="${esc(w.image.replace(/^\//,''))}" alt="${esc(w.title)}">`:'<div class="img">🧪</div>'}<div class="body"><div>${(w.tags||[]).map(t=>`<span class="pill">${esc(t)}</span>`).join('')}</div><h3>${esc(w.title)}</h3>${w.date?`<div class="when">${esc(w.date)}</div>`:''}<p>${esc(w.description)}</p>${w.link?`<a href="${esc(w.link)}" target="_blank" rel="noopener">Learn more →</a>`:''}</div></article>`).join(''):'<p class="empty">No workshops here yet. Check back soon!</p>';watch()};
- fetch('data/workshops.json').then(r=>r.json()).then(d=>{all=d.workshops||[];
+ fetch('data/workshops.json').then(r=>r.json()).then(d=>{all=(d.workshops||[]).filter(w=>!w.hidden);
   chips.innerHTML=['All','Science','Technology','Engineering','Math'].map((t,i)=>`<button class="${i?'':'on'}">${t}</button>`).join('');
   chips.onclick=e=>{if(e.target.tagName!=='BUTTON')return;chips.querySelectorAll('button').forEach(b=>b.classList.remove('on'));e.target.classList.add('on');draw(e.target.textContent)};draw('All')})
  .catch(()=>grid.innerHTML='<p class="empty">Workshops could not be loaded.</p>');
