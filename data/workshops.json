@@ -11,7 +11,7 @@
         "Technology"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     },
     {
@@ -23,7 +23,7 @@
         "Science"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     },
     {
@@ -36,7 +36,7 @@
         "Math"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     },
     {
@@ -49,8 +49,8 @@
         "Math"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
-      "hidden": true
+      "image_fit": "whole",
+      "hidden": false
     },
     {
       "title": "DIY Water Filters",
@@ -62,7 +62,7 @@
         "Engineering"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     },
     {
@@ -75,7 +75,7 @@
         "Math"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     },
     {
@@ -87,7 +87,7 @@
         "Science"
       ],
       "image_position": "50%",
-      "image_fit": "crop",
+      "image_fit": "whole",
       "hidden": false
     }
   ]
