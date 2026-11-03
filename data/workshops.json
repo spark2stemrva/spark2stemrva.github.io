@@ -50,7 +50,7 @@
       ],
       "image_position": "50%",
       "image_fit": "whole",
-      "hidden": true
+      "hidden": false
     },
     {
       "title": "DIY Water Filters",
